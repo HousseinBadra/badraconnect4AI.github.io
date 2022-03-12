@@ -92,9 +92,6 @@ function avaiblemoves(b){
   })
   return arr
 }
-squares.forEach((elem,index)=>{
-  elem.textContent=index
-})
 start.addEventListener('click',()=>{
   start.classList.add('hide')
   game.classList.add('grid')
@@ -163,7 +160,7 @@ function minimax(b,depth,ismax){
   }
   
     if (depth==maximum){
-      return Math.random()-0.5
+      return 0
       
     }
   if(ismax){
@@ -207,7 +204,7 @@ function setmax(){
     maximum=7
   }
   if(alpha<15){
-    maximum=10
+    maximum=11
   }
   if(alpha<10){
     maximum=25
