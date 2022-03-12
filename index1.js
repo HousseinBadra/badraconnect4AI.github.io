@@ -4,7 +4,7 @@ const start=document.querySelector('.start')
 const popup=document.querySelector('.popup')
 let ai='ai'
 let human='human';
-const players=[ai,human]
+const players=[human,human]
 let player;
 const colors={
   'ai':'blue',
