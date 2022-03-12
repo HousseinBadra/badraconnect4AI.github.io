@@ -204,10 +204,10 @@ function setmax(){
     maximum=7
   }
   if(alpha<20){
-    maximum=8
+    maximum=7
   }
   if(alpha<15){
-    maximum=14
+    maximum=10
   }
   if(alpha<10){
     maximum=25
