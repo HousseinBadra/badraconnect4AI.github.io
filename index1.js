@@ -198,16 +198,16 @@ function minimax(b,depth,ismax){
 function setmax(){
   let alpha=board.filter((elem)=>{return (!elem)}).length
   if(alpha<30){
-    maximum=7
+    maximum=6
   }
   if(alpha<25){
-    maximum=8
+    maximum=7
   }
   if(alpha<20){
-    maximum=9
+    maximum=8
   }
   if(alpha<15){
-    maximum=15
+    maximum=14
   }
   if(alpha<10){
     maximum=25
